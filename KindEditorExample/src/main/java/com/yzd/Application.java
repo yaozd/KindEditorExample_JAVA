@@ -22,5 +22,8 @@ public class Application {
     /*spring-boot集成EasyUI和KindEditor
     * http://lihao312.iteye.com/blog/2326679
     * */
+    /*jQuery+php实现ajax文件即时上传
+    * http://www.helloweba.com/view-blog-189.html
+    * */
 
 }

@@ -24,4 +24,9 @@ public class HomeController {
     {
         return "home/t3";
     }
+    @RequestMapping("t4")
+    public String T4()
+    {
+        return "home/t4";
+    }
 }

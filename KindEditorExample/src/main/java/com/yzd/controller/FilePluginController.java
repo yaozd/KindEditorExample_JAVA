@@ -62,7 +62,7 @@ public class FilePluginController {
             BufferedOutputStream stream = new BufferedOutputStream(getFileOutputStream(filePath, fileName));
             stream.write(bytes);
             stream.close();
-            String fileUrl="/kindEditor/file/"+dir+"/"+fileName;
+            String fileUrl="/filePlugin/file/"+dir+"/"+fileName;
             return new UploadReturnJson(fileUrl);
             //return "You successfully uploaded ." + "http://localhost:9088/fileUploadImage/img/p0/" + fileName + " into " + fileName + "-uploaded !";
         } catch (Exception e) {
